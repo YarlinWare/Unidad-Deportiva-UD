@@ -1,0 +1,191 @@
+[
+{
+  "model": "users.tipodocumento",
+  "pk": 1,
+  "fields": {
+    "abreviacion": "CC",
+    "desc_tipo": "Cédula de ciudadanía"
+  }
+},
+{
+  "model": "users.tipodocumento",
+  "pk": 2,
+  "fields": {
+    "abreviacion": "CE",
+    "desc_tipo": "Cedula de extranjeria"
+  }
+},
+{
+  "model": "users.tipodocumento",
+  "pk": 3,
+  "fields": {
+    "abreviacion": "NIP",
+    "desc_tipo": "Número de identificación personal"
+  }
+},
+{
+  "model": "users.tipodocumento",
+  "pk": 4,
+  "fields": {
+    "abreviacion": "NIT",
+    "desc_tipo": "Número de identificación tributaria"
+  }
+},
+{
+  "model": "users.tipodocumento",
+  "pk": 5,
+  "fields": {
+    "abreviacion": "TI",
+    "desc_tipo": "Tarjeta de identidad"
+  }
+},
+{
+  "model": "users.tipodocumento",
+  "pk": 6,
+  "fields": {
+    "abreviacion": "PAP",
+    "desc_tipo": "Pasaporte"
+  }
+},
+{
+  "model": "users.persona",
+  "pk": "1000123456",
+  "fields": {
+    "user": 1,
+    "id_tipo_documento": 1,
+    "correo": "example@example.com",
+    "picture": "",
+    "created": "2022-07-25T06:18:25.800Z",
+    "updated": "2022-07-25T06:18:25.800Z"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020001",
+  "fields": {
+    "nombre": "DANA JULIETH",
+    "apellido": "PEDRAZA MARTINEZ",
+    "fecha_inscripcion": "2022-07-25",
+    "fecha_nacimiento": "2002-07-25",
+    "correo_institucional": "djpedrazam@correo.udistrital.edu.co"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020002",
+  "fields": {
+    "nombre": "NICOLAS GUSTAVO",
+    "apellido": "FRANCO PINILLA",
+    "fecha_inscripcion": "2022-07-25",
+    "fecha_nacimiento": "2002-07-25",
+    "correo_institucional": "fpnicolasg@correo.udistrital.edu.co"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020003",
+  "fields": {
+    "nombre": "ANDERSON CAMILO",
+    "apellido": "JIMENEZ VILLAREAL",
+    "fecha_inscripcion": "2022-07-25",
+    "fecha_nacimiento": "2002-07-25",
+    "correo_institucional": "acjimenezv@correo.udistrital.edu.co"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020004",
+  "fields": {
+    "nombre": "SANTIAGO ANDRES",
+    "apellido": "ZAMBRANO VASQUEZ",
+    "fecha_inscripcion": "2022-07-25",
+    "fecha_nacimiento": "2002-07-25",
+    "correo_institucional": "sazambranov@correo.udistrital.edu.co"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020005",
+  "fields": {
+    "nombre": "JUAN DAVID",
+    "apellido": "OSORIO GONZALEZ",
+    "fecha_inscripcion": "2022-07-25",
+    "fecha_nacimiento": "2002-07-25",
+    "correo_institucional": "jdosoriog@correo.udistrital.edu.co"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020006",
+  "fields": {
+    "nombre": "EDISSON DAVID",
+    "apellido": "CRESPO JAMIOY",
+    "fecha_inscripcion": "2022-07-25",
+    "fecha_nacimiento": "2002-07-25",
+    "correo_institucional": "edcrespoj@correo.udistrital.edu.co"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020007",
+  "fields": {
+    "nombre": "KAROL ESTEFANIA",
+    "apellido": "AGUILAR PALACIOS",
+    "fecha_inscripcion": "2022-07-25",
+    "fecha_nacimiento": "2002-07-25",
+    "correo_institucional": "keaguilarp@correo.udistrital.edu.co"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "1",
+  "fields": {
+    "descripcion": "Administrador deportivo"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "2",
+  "fields": {
+    "descripcion": "Director deportivo"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "3",
+  "fields": {
+    "descripcion": "Fisioterapeutas deportivos"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "4",
+  "fields": {
+    "descripcion": "Entrenadores"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "5",
+  "fields": {
+    "descripcion": "Auxiliares deportivos"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "6",
+  "fields": {
+    "descripcion": "Docente de deporte"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "20221020014",
+  "fields": {
+    "user": 1,
+    "rol": "1",
+    "created": "2022-07-25T06:20:45.023Z",
+    "updated": "2022-07-25T06:20:45.023Z"
+  }
+}
+]
