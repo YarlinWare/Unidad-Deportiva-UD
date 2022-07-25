@@ -183,9 +183,23 @@
   "pk": "20221020014",
   "fields": {
     "user": 1,
-    "rol": "1",
-    "created": "2022-07-25T06:20:45.023Z",
-    "updated": "2022-07-25T06:20:45.023Z"
+    "rol": "1"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "20221020015",
+  "fields": {
+    "user": 3,
+    "rol": "2"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "20221020017",
+  "fields": {
+    "user": 2,
+    "rol": "3"
   }
 }
 ]
