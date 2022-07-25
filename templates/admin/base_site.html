@@ -1,0 +1,21 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+{% load static %}
+{% block extrastyle%}
+<style>
+    #header{background:#112d3d /*rgb(177, 2, 139);*/}
+    #site-name a{font-weight: 700; }
+    #user-tools{font-weight: 600; }
+    img{filter: brightness(100);}
+</style>
+{% endblock%}
+{% block branding %}
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+    <img src="{% static 'img/logo.png' %}" height="45" class="d-inline-block align-top" />
+    </a>
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

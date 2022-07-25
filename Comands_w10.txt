@@ -1,0 +1,17 @@
+
+dsn = cx_Oracle.makedsn("localhost", 1522, service_name="XEPDB1")
+connection = cx_Oracle.connect(user="system", password="1234", dsn=dsn)
+connection = cx_Oracle.connect(user="system", password="1234", dsn="localhost:1522/XEPDB1")
+
+Powershell
+tnsping prod
+-
+lsnrctl start LISTENER
+lsnrctl status
+lsnrctl stop
+tnsping net service name
+
+ select * from tab;
+
+ Codigos paises
+ https://www.datosmundial.com/codigos-de-pais.php
