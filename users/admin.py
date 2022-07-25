@@ -4,20 +4,8 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 # Models
 from django.contrib.auth.models import User
-from users.models import Persona, TipoPersona
+from users.models import Persona, Estudiante,Rol,TipoDocumento
 
-
-# Register your models here.
-class ComisarioEventoAdmin(admin.ModelAdmin):
-	list_display = ('consec_comisario', 'created', 'updated' )
-	#list_display_links = ('cod_persona',)
-	readonly_fields = ('created', 'updated')
-
-class TareaAdmin(admin.ModelAdmin):
-	readonly_fields = ('created', 'updated')
-
-class TipoPersonaAdmin(admin.ModelAdmin):
-	readonly_fields = ('created', 'updated')
 
 class UserAdmin(admin.ModelAdmin):
 	readonly_fields = ('created', 'updated')
@@ -63,6 +51,9 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
-
 admin.site.register(Persona, PersonaAdmin)
-admin.site.register(TipoPersona, TipoPersonaAdmin)
+
+# Register your models here.
+admin.site.register(Estudiante)
+admin.site.register(Rol)
+admin.site.register(TipoDocumento)

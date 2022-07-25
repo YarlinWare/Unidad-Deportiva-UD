@@ -1,4 +1,4 @@
-"""olimpiadasUD URL Configuration
+"""Unidad Deportiva UD URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -22,7 +22,6 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 # En el router vamos añadiendo los endpoints a los viewsets
 router.register('persona', users_views.PersonasViewSet)
-router.register('tipo_persona', users_views.TipoPersonasViewSet)
 
 urlpatterns = [
     path('',users_views.home, name="home"),
