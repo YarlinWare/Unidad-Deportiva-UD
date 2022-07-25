@@ -7,9 +7,9 @@ from django.contrib.auth.models import User
 from django.db.utils import IntegrityError
 
 #Utils
-from users.models import Persona, TipoPersona
+from users.models import Persona
 
-from .serializers import PersonaSerializer,TipoPersonaSerializer
+from .serializers import PersonaSerializer
 from rest_framework import viewsets
 
 # Create your views here.
@@ -24,13 +24,14 @@ def login_view(request):
         user = authenticate(request, username=username, password=password)
         if user:
             login(request, user)
-            return redirect('admin:index')
+            #return redirect('admin:index')
+            return redirect('home:feed')
         else:
             return render(request, 'users/login.html', { 'error': 'Usuario o contraseña invalido.'})
     # Si el usuario ya está autenticado
     if request.method == 'GET':
         if request.user.is_authenticated:
-            return redirect('posts:feed')
+            return redirect('home:feed')
 
     return render(request, 'users/login.html')
 
@@ -73,7 +74,3 @@ def signup_view(request):
 class PersonasViewSet(viewsets.ModelViewSet):
     queryset = Persona.objects.all()
     serializer_class = PersonaSerializer
-
-class TipoPersonasViewSet(viewsets.ModelViewSet):
-    queryset = TipoPersona.objects.all()
-    serializer_class = TipoPersonaSerializer
