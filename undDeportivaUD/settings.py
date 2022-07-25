@@ -90,26 +90,15 @@ WSGI_APPLICATION = 'undDeportivaUD.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    # Postgresql
-    'postgresql': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'und_deportiva_ud',
-        'USER': 'postgres',
-        'PASSWORD': 'accdata01',
-        'HOST': 'localhost',
-        'PORT': '5433',
-    },
-    # oracle
-    'oracle': {
-        'ENGINE': 'django.db.backends.oracle',
-        'NAME': '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.6)(PORT=1522)))',
-        'USER': 'system',
-        'PASSWORD': '1234',
-    },
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': (
+                '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))'
+                '(CONNECT_DATA=(SERVICE_NAME=orclpdb)))'
+                ),
+        'USER': 'system',
+        'PASSWORD': 'System#1234',
+    },
 }
 
 
