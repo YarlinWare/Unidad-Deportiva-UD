@@ -4,15 +4,14 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 # Models
 from django.contrib.auth.models import User
-from users.models import Persona, Estudiante,Rol,TipoDocumento
-
+from users.models import Persona, Estudiante, Rol, TipoDocumento, Empleado
 
 class UserAdmin(admin.ModelAdmin):
 	readonly_fields = ('created', 'updated')
 
 class PersonaAdmin(admin.ModelAdmin):
-	list_display = ('user', 'cod_persona','created', 'updated' )
-	list_display_links = ('user', 'cod_persona',)
+	list_display = ('user','created', 'updated' )
+	list_display_links = ('user',)
 	search_fields = ['user__email',
 					'user__first_name',
 					'user__last_name',
@@ -28,7 +27,7 @@ class PersonaAdmin(admin.ModelAdmin):
 	fieldsets = (
 		('Persona', {
 			'fields':(
-				('cod_persona', 'user', 'id_tipo_persona_fk'),
+				('user'),
 			)
 		}),
 		('Metadata', {
@@ -57,3 +56,4 @@ admin.site.register(Persona, PersonaAdmin)
 admin.site.register(Estudiante)
 admin.site.register(Rol)
 admin.site.register(TipoDocumento)
+admin.site.register(Empleado)
