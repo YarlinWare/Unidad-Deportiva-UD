@@ -95,10 +95,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': (
                 '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))'
-                '(CONNECT_DATA=(SERVICE_NAME=orclpdb)))'
+                '(CONNECT_DATA=(SERVICE_NAME=orcl)))'#orclpdb
                 ),
-        'USER': 'system',
-        'PASSWORD': 'System#1234',
+        'USER': 'cmyarap',
+        'PASSWORD': 'cmyarap',
     },
 }
 

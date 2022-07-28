@@ -15,3 +15,17 @@ tnsping net service name
 
  Codigos paises
  https://www.datosmundial.com/codigos-de-pais.php
+
+
+ --------------------------
+ sqlplus sys as sysdba
+
+contraseña System#1234
+
+alter session set "_oracle_script" = true;
+
+create user <usuario> identified by <password>
+
+grant connect, resource, dba to <usuario>
+
+connect usuario/password
