@@ -2116,5 +2116,23 @@
       "empleado": "0005",
       "estudiante": "20221020002"
     }
+  },
+  {
+    "model": "users.asisresponsable",
+    "pk": 1,
+    "fields": {
+      "fecha_asis_responsable": "2022-08-10",
+      "hora_asis_responsable": "08:00:00",
+      "responsable": 1
+    }
+  },
+  {
+    "model": "users.asisresponsable",
+    "pk": 2,
+    "fields": {
+      "fecha_asis_responsable": "2022-08-10",
+      "hora_asis_responsable": "08:00:00",
+      "responsable": 2
+    }
   }
 ]

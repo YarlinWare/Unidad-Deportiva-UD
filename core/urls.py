@@ -19,4 +19,5 @@ from core import views as home_views
 
 urlpatterns = [
     path('', home_views.home_feed, name="feed"),
+    path('assistant', home_views.home_assistant, name="assistant"),
 ]

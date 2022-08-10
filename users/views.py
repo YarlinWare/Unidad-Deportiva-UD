@@ -11,7 +11,7 @@ from django.db.utils import IntegrityError
 from django.db import connection
 
 #Utils
-from users.models import Persona, Rol
+from users.models import Empleado, Persona, Rol
 
 from .serializers import PersonaSerializer
 from rest_framework import viewsets
@@ -90,6 +90,15 @@ def signup_view(request):
 
     return render(request, 'users/signup_view.html')
 
+def signup_assistant(request):
+    lista_empleados = Empleado.objects.all().values_list('cod_empleado', flat=True)
+    cod_empleado = ''
+    if request.method == 'POST':
+        cod_empleado = request.POST['cod_empleado']
+        return redirect('home:assistant')
+
+    context = {'lista_empleados': lista_empleados,'cod_empleado':cod_empleado}
+    return render(request, 'assistant/signup_assistant.html', context)
 
 def signup_employee(request):
     roles = Rol.objects.all()
