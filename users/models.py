@@ -124,20 +124,11 @@ class AsisResponsable(models.Model):
     ''' Profile model '''
     consec_asis_responsable = models.AutoField(primary_key=True, null=False, unique=True)
     fecha_asis_responsable =models.DateField(default=datetime.today, null=False, verbose_name='Fecha asistente responsable')
-    hora_asis_responsable =models.DateField(default=datetime.ctime, null=False, verbose_name='Hora asistente responsable')
+    hora_asis_responsable =models.TimeField(default=datetime.today, null=False, verbose_name='Hora asistente responsable')
     #
     responsable = models.ForeignKey('users.Responsable', on_delete=models.CASCADE, null=True, default='1')
     def __str__(self):
         """Return username."""
-        return '{}: {} a las {}'.format(self.responsable, self.fecha_asis_responsable, self.hora_asis_responsable)
+        return '{}: {}'.format(self.responsable)
     class Meta:
         unique_together = (('consec_asis_responsable', 'responsable'),)
-
-
-
-
-
-
-
-
-
