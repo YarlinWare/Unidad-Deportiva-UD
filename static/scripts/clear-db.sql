@@ -1,0 +1,15 @@
+drop table USERS_EMPLEADO;
+drop table USERS_PERSONA;
+drop table USERS_TIPODOCUMENTO;
+drop table USERS_ROL;
+drop table USERS_ESTUDIANTE;
+drop table DJANGO_SESSION;
+drop table DJANGO_ADMIN_LOG;
+drop table AUTH_USER_USER_PERMISSIONS;
+drop table AUTH_USER_GROUPS;
+drop table AUTH_USER;
+drop table AUTH_GROUP_PERMISSIONS;
+drop table AUTH_GROUP;
+drop table AUTH_PERMISSION;
+drop table DJANGO_MIGRATIONS;
+drop table DJANGO_CONTENT_TYPE;
