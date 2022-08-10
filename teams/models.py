@@ -1,39 +1,35 @@
 from django.db import models
 from datetime import datetime
-from programming.models import Programacion
-
-from sports.models import Deporte
-from users.models import Empleado, Estudiante
 
 class Equipo(models.Model):
     ''' Equipo model '''
-    consec_equipo = models.AutoField(max_length=3, primary_key=True, null=False, unique=True)
-    fecha_resol =models.DateField(default=datetime.today, null=False)
+    consec_equipo = models.AutoField(primary_key=True, null=False, unique=True)
+    fecha_resol =models.DateField(default=datetime.today, null=False, verbose_name='Fecha resolución')
     #
-    deporte = models.ForeignKey(Deporte, on_delete=models.CASCADE, default='')
-    empleado = models.ForeignKey(Empleado, on_delete=models.CASCADE, default='', verbose_name='Entrenador')
+    deporte = models.ForeignKey('sports.Deporte', on_delete=models.CASCADE, default='01')
+    empleado = models.ForeignKey('users.Empleado', on_delete=models.CASCADE, default='1', verbose_name='Entrenador')
     def __str__(self):
-        return self.consec_equipo
+        return '{}'.format(self.deporte)
 
 class MiembroEquipo(models.Model):
-    itemMiembro = models.AutoField(max_length=3, primary_key=True, null=False, unique=True)
+    itemMiembro = models.AutoField(primary_key=True, null=False, unique=True)
     #
-    equipo = models.ForeignKey(Equipo, on_delete=models.CASCADE, default='')
-    estudiante = models.ForeignKey(Estudiante, on_delete=models.CASCADE, verbose_name='Pertenece')
+    equipo = models.ForeignKey(Equipo, on_delete=models.CASCADE, default='1')
+    estudiante = models.ForeignKey('users.Estudiante', on_delete=models.CASCADE, verbose_name='Pertenece', default='20221020001')
     def __str__(self):
-        return self.itemMiembro
-    class Meta:
-        unique_together = (('itemMiembro', 'equipo'),)
+        return '{}'.format(self.estudiante)
+    """ class Meta:
+        unique_together = (('itemMiembro', 'equipo'),) """
 
 class AsisMiembroEquipo(models.Model):
-    con_miembro_equipo = models.AutoField(max_length=4, primary_key=True, null=False, unique=True)
+    con_miembro_equipo = models.AutoField( primary_key=True, null=False, unique=True)
     #
-    programacion = models.ForeignKey(Programacion, on_delete=models.CASCADE, default='')
-    miembro_equipo = models.ForeignKey(Programacion, on_delete=models.CASCADE, default='', verbose_name='Miembro equipo')
+    programacion = models.ForeignKey('programming.Programacion', on_delete=models.CASCADE, default='1')
+    miembro_equipo = models.ForeignKey(MiembroEquipo, on_delete=models.CASCADE, default='1', verbose_name='Miembro equipo')
     def __str__(self):
-        return self.con_miembro_equipo
-    class Meta:
-        unique_together = (('con_miembro_equipo', 'programacion'),)
+        return '{}'.format(self.miembro_equipo)
+    """ class Meta:
+        unique_together = (('con_miembro_equipo', 'programacion'),) """
 
 
 #

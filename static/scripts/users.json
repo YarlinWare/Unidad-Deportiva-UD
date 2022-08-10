@@ -48,158 +48,449 @@
   }
 },
 {
-  "model": "users.persona",
-  "pk": "1000123456",
-  "fields": {
-    "user": 1,
-    "id_tipo_documento": 1,
-    "correo": "example@example.com",
-    "picture": "",
-    "created": "2022-07-25T06:18:25.800Z",
-    "updated": "2022-07-25T06:18:25.800Z"
-  }
-},
-{
   "model": "users.estudiante",
   "pk": "20221020001",
   "fields": {
-    "nombre": "DANA JULIETH",
-    "apellido": "PEDRAZA MARTINEZ",
-    "fecha_inscripcion": "2022-07-25",
-    "fecha_nacimiento": "2002-07-25",
-    "correo_institucional": "djpedrazam@correo.udistrital.edu.co"
+    "nom_estu": "DANA JULIETH",
+    "apell_estu": "PEDRAZA MARTINEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "djpedrazam@correo.udistrital.edu.co",
+    "espacio": "S1"
   }
 },
 {
   "model": "users.estudiante",
   "pk": "20221020002",
   "fields": {
-    "nombre": "NICOLAS GUSTAVO",
-    "apellido": "FRANCO PINILLA",
-    "fecha_inscripcion": "2022-07-25",
-    "fecha_nacimiento": "2002-07-25",
-    "correo_institucional": "fpnicolasg@correo.udistrital.edu.co"
+    "nom_estu": "NICOLAS GUSTAVO",
+    "apell_estu": "FRANCO PINILLA",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "fpnicolasg@correo.udistrital.edu.co",
+    "espacio": "S2"
   }
 },
 {
   "model": "users.estudiante",
   "pk": "20221020003",
   "fields": {
-    "nombre": "ANDERSON CAMILO",
-    "apellido": "JIMENEZ VILLAREAL",
-    "fecha_inscripcion": "2022-07-25",
-    "fecha_nacimiento": "2002-07-25",
-    "correo_institucional": "acjimenezv@correo.udistrital.edu.co"
+    "nom_estu": "ANDERSON CAMILO",
+    "apell_estu": "JIMENEZ VILLAREAL",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "acjimenezv@correo.udistrital.edu.co",
+    "espacio": "S3"
   }
 },
 {
   "model": "users.estudiante",
   "pk": "20221020004",
   "fields": {
-    "nombre": "SANTIAGO ANDRES",
-    "apellido": "ZAMBRANO VASQUEZ",
-    "fecha_inscripcion": "2022-07-25",
-    "fecha_nacimiento": "2002-07-25",
-    "correo_institucional": "sazambranov@correo.udistrital.edu.co"
+    "nom_estu": "SANTIAGO ANDRES",
+    "apell_estu": "ZAMBRANO VASQUEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "sazambranov@correo.udistrital.edu.co",
+    "espacio": "S1"
   }
 },
 {
   "model": "users.estudiante",
   "pk": "20221020005",
   "fields": {
-    "nombre": "JUAN DAVID",
-    "apellido": "OSORIO GONZALEZ",
-    "fecha_inscripcion": "2022-07-25",
-    "fecha_nacimiento": "2002-07-25",
-    "correo_institucional": "jdosoriog@correo.udistrital.edu.co"
+    "nom_estu": "JUAN DAVID",
+    "apell_estu": "OSORIO GONZALEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "jdosoriog@correo.udistrital.edu.co",
+    "espacio": "S2"
   }
 },
 {
   "model": "users.estudiante",
   "pk": "20221020006",
   "fields": {
-    "nombre": "EDISSON DAVID",
-    "apellido": "CRESPO JAMIOY",
-    "fecha_inscripcion": "2022-07-25",
-    "fecha_nacimiento": "2002-07-25",
-    "correo_institucional": "edcrespoj@correo.udistrital.edu.co"
+    "nom_estu": "EDISSON DAVID",
+    "apell_estu": "CRESPO JAMIOY",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "edcrespoj@correo.udistrital.edu.co",
+    "espacio": "S3"
   }
 },
 {
   "model": "users.estudiante",
   "pk": "20221020007",
   "fields": {
-    "nombre": "KAROL ESTEFANIA",
-    "apellido": "AGUILAR PALACIOS",
-    "fecha_inscripcion": "2022-07-25",
-    "fecha_nacimiento": "2002-07-25",
-    "correo_institucional": "keaguilarp@correo.udistrital.edu.co"
+    "nom_estu": "KAROL ESTEFANIA",
+    "apell_estu": "AGUILAR PALACIOS",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "keaguilarp@correo.udistrital.edu.co",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020008",
+  "fields": {
+    "nom_estu": "DANA JULIETH",
+    "apell_estu": "FRANCO PINILLA",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "djfrancop@correo.udistrital.edu.co",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020009",
+  "fields": {
+    "nom_estu": "NICOLAS GUSTAVO",
+    "apell_estu": "PEDRAZA MARTINEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "ngpedrazam@correo.udistrital.edu.co",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020010",
+  "fields": {
+    "nom_estu": "ANDERSON CAMILO",
+    "apell_estu": "ZAMBRANO VASQUEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "aczambranov@correo.udistrital.edu.co",
+    "espacio": "S1"
   }
 },
 {
   "model": "users.rol",
   "pk": "1",
   "fields": {
-    "descripcion": "Administrador deportivo"
+    "desc_rol": "Director Deport"
   }
 },
 {
   "model": "users.rol",
   "pk": "2",
   "fields": {
-    "descripcion": "Director deportivo"
+    "desc_rol": "Docente"
   }
 },
 {
   "model": "users.rol",
   "pk": "3",
   "fields": {
-    "descripcion": "Fisioterapeutas deportivos"
-  }
-},
-{
-  "model": "users.rol",
-  "pk": "4",
-  "fields": {
-    "descripcion": "Entrenadores"
-  }
-},
-{
-  "model": "users.rol",
-  "pk": "5",
-  "fields": {
-    "descripcion": "Auxiliares deportivos"
-  }
-},
-{
-  "model": "users.rol",
-  "pk": "6",
-  "fields": {
-    "descripcion": "Docente de deporte"
+    "desc_rol": "Entranador"
   }
 },
 {
   "model": "users.empleado",
-  "pk": "20221020014",
+  "pk": "0001",
   "fields": {
-    "user": 1,
-    "rol": "1"
+    "nom_empleado": "Jhony",
+    "apell_empleado": "Sanchez",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "jhonysanche@udistrital.edu.co"
   }
 },
 {
   "model": "users.empleado",
-  "pk": "20221020015",
+  "pk": "0002",
   "fields": {
-    "user": 3,
-    "rol": "2"
+    "nom_empleado": "Daniel",
+    "apell_empleado": "Garcia",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "dgarcia@udistrital.edu.co"
   }
 },
 {
   "model": "users.empleado",
-  "pk": "20221020017",
+  "pk": "0003",
   "fields": {
-    "user": 2,
-    "rol": "3"
+    "nom_empleado": "Alejandro",
+    "apell_empleado": "Cortes",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "acortes@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0004",
+  "fields": {
+    "nom_empleado": "Viviana",
+    "apell_empleado": "Garcia",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "vgarcia@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0005",
+  "fields": {
+    "nom_empleado": "Angie",
+    "apell_empleado": "Bustos",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "abustos@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0006",
+  "fields": {
+    "nom_empleado": "Juan",
+    "apell_empleado": "Herrera",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "jherrera@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0007",
+  "fields": {
+    "nom_empleado": "Juan",
+    "apell_empleado": "Ramirez",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "jramirez@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0008",
+  "fields": {
+    "nom_empleado": "Alejandro",
+    "apell_empleado": "Gaviria",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "agaviria@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0009",
+  "fields": {
+    "nom_empleado": "Diego",
+    "apell_empleado": "Tellez",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "dtellez@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0010",
+  "fields": {
+    "nom_empleado": "Esteban",
+    "apell_empleado": "Olaya",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "eolaya@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "01",
+  "fields": {
+    "desc_cargo": "Auxiliar"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "02",
+  "fields": {
+    "desc_cargo": "Docente"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "03",
+  "fields": {
+    "desc_cargo": "Director Deportivo"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "04",
+  "fields": {
+    "desc_cargo": "Admin Deportivo"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "05",
+  "fields": {
+    "desc_cargo": "Fisioterapeuta"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "06",
+  "fields": {
+    "desc_cargo": "Entrenador"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 1,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "03",
+    "espacio": "C1",
+    "empleado": "0001"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 2,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "03",
+    "espacio": "C1",
+    "empleado": "0001"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 3,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "02",
+    "espacio": "S2",
+    "empleado": "0002"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 4,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "02",
+    "espacio": "S1",
+    "empleado": "0003"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 5,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "02",
+    "espacio": "S1",
+    "empleado": "0004"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 6,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "02",
+    "espacio": "S3",
+    "empleado": "0005"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 7,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "01",
+    "espacio": "01",
+    "empleado": "0006"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 8,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "01",
+    "espacio": "01",
+    "empleado": "0007"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 9,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "06",
+    "espacio": "S1",
+    "empleado": "0008"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 10,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "06",
+    "espacio": "S2",
+    "empleado": "0009"
+  }
+},
+{
+  "model": "users.empleadocargo",
+  "pk": 11,
+  "fields": {
+    "fecha_cargo": "2022-08-10",
+    "fecha_fin_cargo": "2022-08-10",
+    "cargo": "06",
+    "espacio": "S3",
+    "empleado": "0010"
+  }
+},
+{
+  "model": "users.responsable",
+  "pk": 1,
+  "fields": {
+    "fecha_inicio": "2022-08-10",
+    "fecha_fin": "2022-08-10",
+    "programacion": 1,
+    "rol": "2",
+    "empleado": "0002",
+    "estudiante": "20221020001"
+  }
+},
+{
+  "model": "users.responsable",
+  "pk": 2,
+  "fields": {
+    "fecha_inicio": "2022-08-10",
+    "fecha_fin": "2022-08-10",
+    "programacion": 1,
+    "rol": "2",
+    "empleado": "0005",
+    "estudiante": "20221020002"
+  }
+},
+{
+  "model": "users.asisresponsable",
+  "pk": 1,
+  "fields": {
+    "fecha_asis_responsable": "2022-08-10",
+    "hora_asis_responsable": "2022-08-10",
+    "responsable": 1
+  }
+},
+{
+  "model": "users.asisresponsable",
+  "pk": 2,
+  "fields": {
+    "fecha_asis_responsable": "2022-08-10",
+    "hora_asis_responsable": "2022-08-10",
+    "responsable": 2
   }
 }
 ]
