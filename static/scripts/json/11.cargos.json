@@ -1,0 +1,44 @@
+[
+{
+  "model": "users.cargo",
+  "pk": "01",
+  "fields": {
+    "desc_cargo": "Auxiliar"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "02",
+  "fields": {
+    "desc_cargo": "Docente"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "03",
+  "fields": {
+    "desc_cargo": "Director Deportivo"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "04",
+  "fields": {
+    "desc_cargo": "Admin Deportivo"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "05",
+  "fields": {
+    "desc_cargo": "Fisioterapeuta"
+  }
+},
+{
+  "model": "users.cargo",
+  "pk": "06",
+  "fields": {
+    "desc_cargo": "Entrenador"
+  }
+}
+]

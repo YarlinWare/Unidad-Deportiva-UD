@@ -1,0 +1,26 @@
+[
+{
+  "model": "users.responsable",
+  "pk": 1,
+  "fields": {
+    "fecha_inicio": "2022-08-10",
+    "fecha_fin": "2022-08-10",
+    "programacion": 1,
+    "rol": "2",
+    "empleado": "0002",
+    "estudiante": "20221020001"
+  }
+},
+{
+  "model": "users.responsable",
+  "pk": 2,
+  "fields": {
+    "fecha_inicio": "2022-08-10",
+    "fecha_fin": "2022-08-10",
+    "programacion": 1,
+    "rol": "2",
+    "empleado": "0005",
+    "estudiante": "20221020002"
+  }
+}
+]

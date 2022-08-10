@@ -1,0 +1,102 @@
+[
+{
+  "model": "users.empleado",
+  "pk": "0001",
+  "fields": {
+    "nom_empleado": "Jhony",
+    "apell_empleado": "Sanchez",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "jhonysanche@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0002",
+  "fields": {
+    "nom_empleado": "Daniel",
+    "apell_empleado": "Garcia",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "dgarcia@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0003",
+  "fields": {
+    "nom_empleado": "Alejandro",
+    "apell_empleado": "Cortes",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "acortes@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0004",
+  "fields": {
+    "nom_empleado": "Viviana",
+    "apell_empleado": "Garcia",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "vgarcia@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0005",
+  "fields": {
+    "nom_empleado": "Angie",
+    "apell_empleado": "Bustos",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "abustos@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0006",
+  "fields": {
+    "nom_empleado": "Juan",
+    "apell_empleado": "Herrera",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "jherrera@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0007",
+  "fields": {
+    "nom_empleado": "Juan",
+    "apell_empleado": "Ramirez",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "jramirez@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0008",
+  "fields": {
+    "nom_empleado": "Alejandro",
+    "apell_empleado": "Gaviria",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "agaviria@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0009",
+  "fields": {
+    "nom_empleado": "Diego",
+    "apell_empleado": "Tellez",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "dtellez@udistrital.edu.co"
+  }
+},
+{
+  "model": "users.empleado",
+  "pk": "0010",
+  "fields": {
+    "nom_empleado": "Esteban",
+    "apell_empleado": "Olaya",
+    "fecha_registro": "2022-08-10",
+    "correo_ud": "eolaya@udistrital.edu.co"
+  }
+}
+]

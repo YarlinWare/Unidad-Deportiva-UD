@@ -1,0 +1,93 @@
+[
+{
+  "model": "sports.tipoelemento",
+  "pk": "01",
+  "fields": {
+    "desc_tipo_elemento": "Balón Baloncesto"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "02",
+  "fields": {
+    "desc_tipo_elemento": "Balón Futbol"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "03",
+  "fields": {
+    "desc_tipo_elemento": "Balón Voleibol"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "04",
+  "fields": {
+    "desc_tipo_elemento": "Pelota Tenis mesa"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "05",
+  "fields": {
+    "desc_tipo_elemento": "Pelota Tenis campo"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "06",
+  "fields": {
+    "desc_tipo_elemento": "Colchoneta"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "07",
+  "fields": {
+    "desc_tipo_elemento": "Lazo salto"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "08",
+  "fields": {
+    "desc_tipo_elemento": "Guantes Box"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "09",
+  "fields": {
+    "desc_tipo_elemento": "Malla Volibol"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "10",
+  "fields": {
+    "desc_tipo_elemento": "Saco Boxeo"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "11",
+  "fields": {
+    "desc_tipo_elemento": "Aros hula-hula"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "12",
+  "fields": {
+    "desc_tipo_elemento": "Chaleco Boxeo"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "13",
+  "fields": {
+    "desc_tipo_elemento": "Malla Pimpón"
+  }
+}
+]

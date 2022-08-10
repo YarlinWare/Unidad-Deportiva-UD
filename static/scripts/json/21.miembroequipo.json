@@ -1,0 +1,74 @@
+[
+{
+  "model": "teams.miembroequipo",
+  "pk": 1,
+  "fields": {
+    "equipo": 1,
+    "estudiante": "20221020001"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 2,
+  "fields": {
+    "equipo": 1,
+    "estudiante": "20221020002"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 3,
+  "fields": {
+    "equipo": 2,
+    "estudiante": "20221020003"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 4,
+  "fields": {
+    "equipo": 4,
+    "estudiante": "20221020004"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 5,
+  "fields": {
+    "equipo": 5,
+    "estudiante": "20221020005"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 6,
+  "fields": {
+    "equipo": 6,
+    "estudiante": "20221020006"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 7,
+  "fields": {
+    "equipo": 8,
+    "estudiante": "20221020008"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 8,
+  "fields": {
+    "equipo": 9,
+    "estudiante": "20221020009"
+  }
+},
+{
+  "model": "teams.miembroequipo",
+  "pk": 9,
+  "fields": {
+    "equipo": 10,
+    "estudiante": "20221020010"
+  }
+}
+]

@@ -1,0 +1,378 @@
+[
+{
+  "model": "programming.espacio",
+  "pk": "01",
+  "fields": {
+    "nom_espacio": "Unidad deportiva el Salitre",
+    "tipo_espacio": "01"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "C1",
+  "fields": {
+    "nom_espacio": "Campo de Fútbol Millonarios FC",
+    "tipo_espacio": "03"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "C2",
+  "fields": {
+    "nom_espacio": "Campo de Atletismo El Dorado",
+    "tipo_espacio": "03"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "C3",
+  "fields": {
+    "nom_espacio": "Campo de patinaje Cafam",
+    "tipo_espacio": "03"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J0",
+  "fields": {
+    "nom_espacio": "Salón 1 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J1",
+  "fields": {
+    "nom_espacio": "Salón 2 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J2",
+  "fields": {
+    "nom_espacio": "Salón 3 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J3",
+  "fields": {
+    "nom_espacio": "Salón 4 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J4",
+  "fields": {
+    "nom_espacio": "Salón 5 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J5",
+  "fields": {
+    "nom_espacio": "Salón 6 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J6",
+  "fields": {
+    "nom_espacio": "Salón 7 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J7",
+  "fields": {
+    "nom_espacio": "Salón 8 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J8",
+  "fields": {
+    "nom_espacio": "Salón 9 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "J9",
+  "fields": {
+    "nom_espacio": "Salón 10 Cafam Madelena",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K0",
+  "fields": {
+    "nom_espacio": "Salón 1 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K1",
+  "fields": {
+    "nom_espacio": "Salón 2 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K2",
+  "fields": {
+    "nom_espacio": "Salón 3 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K3",
+  "fields": {
+    "nom_espacio": "Salón 4 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K4",
+  "fields": {
+    "nom_espacio": "Salón 5 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K5",
+  "fields": {
+    "nom_espacio": "Salón 6 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K6",
+  "fields": {
+    "nom_espacio": "Salón 7 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K7",
+  "fields": {
+    "nom_espacio": "Salón 8 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K8",
+  "fields": {
+    "nom_espacio": "Salón 9 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "K9",
+  "fields": {
+    "nom_espacio": "Salón 10 Millonarios FC",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L0",
+  "fields": {
+    "nom_espacio": "Salón 10 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L1",
+  "fields": {
+    "nom_espacio": "Salón 1 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L2",
+  "fields": {
+    "nom_espacio": "Salón 2 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L3",
+  "fields": {
+    "nom_espacio": "Salón 3 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L4",
+  "fields": {
+    "nom_espacio": "Salón 4 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L5",
+  "fields": {
+    "nom_espacio": "Salón 5 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L6",
+  "fields": {
+    "nom_espacio": "Salón 6 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L7",
+  "fields": {
+    "nom_espacio": "Salón 7 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L8",
+  "fields": {
+    "nom_espacio": "Salón 8 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "L9",
+  "fields": {
+    "nom_espacio": "Salón 9 El Dorado",
+    "tipo_espacio": "05"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "M1",
+  "fields": {
+    "nom_espacio": "Sala Máquinas Millonarios FC",
+    "tipo_espacio": "07"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "M2",
+  "fields": {
+    "nom_espacio": "Sala Máquinas El Dorado",
+    "tipo_espacio": "07"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "M3",
+  "fields": {
+    "nom_espacio": "Sala Máquinas Cafam",
+    "tipo_espacio": "07"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "N1",
+  "fields": {
+    "nom_espacio": "Piscina Millonarios FC",
+    "tipo_espacio": "06"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "N2",
+  "fields": {
+    "nom_espacio": "Piscina Olimpica El Dorado",
+    "tipo_espacio": "06"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "N3",
+  "fields": {
+    "nom_espacio": "Piscina Infantil Cafam",
+    "tipo_espacio": "06"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "P1",
+  "fields": {
+    "nom_espacio": "Pista Millonarios FC",
+    "tipo_espacio": "04"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "P2",
+  "fields": {
+    "nom_espacio": "Pista BMX El Dorado",
+    "tipo_espacio": "04"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "P3",
+  "fields": {
+    "nom_espacio": "Pista Ciclismo Cafam",
+    "tipo_espacio": "04"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "S1",
+  "fields": {
+    "nom_espacio": "Sede Deportiva El Dorado",
+    "tipo_espacio": "02"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "S2",
+  "fields": {
+    "nom_espacio": "Sede Deportiva Millonarios FC",
+    "tipo_espacio": "02"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "S3",
+  "fields": {
+    "nom_espacio": "Club deportivo Cafam Madelena",
+    "tipo_espacio": "02"
+  }
+},
+{
+  "model": "programming.espacio",
+  "pk": "U1",
+  "fields": {
+    "nom_espacio": "Unidad deportiva el Salitre",
+    "tipo_espacio": "01"
+  }
+}
+]

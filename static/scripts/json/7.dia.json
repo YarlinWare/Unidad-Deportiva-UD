@@ -1,0 +1,51 @@
+[
+{
+  "model": "programming.dia",
+  "pk": "1",
+  "fields": {
+    "nom_dia": "Domingo"
+  }
+},
+{
+  "model": "programming.dia",
+  "pk": "2",
+  "fields": {
+    "nom_dia": "Lunes"
+  }
+},
+{
+  "model": "programming.dia",
+  "pk": "3",
+  "fields": {
+    "nom_dia": "Martes"
+  }
+},
+{
+  "model": "programming.dia",
+  "pk": "4",
+  "fields": {
+    "nom_dia": "Miércoles"
+  }
+},
+{
+  "model": "programming.dia",
+  "pk": "5",
+  "fields": {
+    "nom_dia": "Jueves"
+  }
+},
+{
+  "model": "programming.dia",
+  "pk": "6",
+  "fields": {
+    "nom_dia": "Viernes"
+  }
+},
+{
+  "model": "programming.dia",
+  "pk": "7",
+  "fields": {
+    "nom_dia": "Sábado"
+  }
+}
+]

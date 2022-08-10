@@ -1,0 +1,23 @@
+[
+{
+  "model": "users.rol",
+  "pk": "1",
+  "fields": {
+    "desc_rol": "Director Deport"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "2",
+  "fields": {
+    "desc_rol": "Docente"
+  }
+},
+{
+  "model": "users.rol",
+  "pk": "3",
+  "fields": {
+    "desc_rol": "Entranador"
+  }
+}
+]

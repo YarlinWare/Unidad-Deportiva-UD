@@ -1,0 +1,123 @@
+[
+  {
+    "model": "users.empleadocargo",
+    "pk": 1,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "03",
+      "espacio": "C1",
+      "empleado": "0001"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 2,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "03",
+      "espacio": "C1",
+      "empleado": "0001"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 3,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S2",
+      "empleado": "0002"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 4,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S1",
+      "empleado": "0003"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 5,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S1",
+      "empleado": "0004"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 6,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S3",
+      "empleado": "0005"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 7,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "01",
+      "espacio": "01",
+      "empleado": "0006"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 8,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "01",
+      "espacio": "01",
+      "empleado": "0007"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 9,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "06",
+      "espacio": "S1",
+      "empleado": "0008"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 10,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "06",
+      "espacio": "S2",
+      "empleado": "0009"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 11,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "06",
+      "espacio": "S3",
+      "empleado": "0010"
+    }
+  }
+]

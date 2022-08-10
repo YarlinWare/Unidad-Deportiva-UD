@@ -1,0 +1,122 @@
+[
+{
+  "model": "users.estudiante",
+  "pk": "20221020001",
+  "fields": {
+    "nom_estu": "DANA JULIETH",
+    "apell_estu": "PEDRAZA MARTINEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "djpedrazam@correo.udistrital.edu.co",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020002",
+  "fields": {
+    "nom_estu": "NICOLAS GUSTAVO",
+    "apell_estu": "FRANCO PINILLA",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "fpnicolasg@correo.udistrital.edu.co",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020003",
+  "fields": {
+    "nom_estu": "ANDERSON CAMILO",
+    "apell_estu": "JIMENEZ VILLAREAL",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "acjimenezv@correo.udistrital.edu.co",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020004",
+  "fields": {
+    "nom_estu": "SANTIAGO ANDRES",
+    "apell_estu": "ZAMBRANO VASQUEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "sazambranov@correo.udistrital.edu.co",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020005",
+  "fields": {
+    "nom_estu": "JUAN DAVID",
+    "apell_estu": "OSORIO GONZALEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "jdosoriog@correo.udistrital.edu.co",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020006",
+  "fields": {
+    "nom_estu": "EDISSON DAVID",
+    "apell_estu": "CRESPO JAMIOY",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "edcrespoj@correo.udistrital.edu.co",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020007",
+  "fields": {
+    "nom_estu": "KAROL ESTEFANIA",
+    "apell_estu": "AGUILAR PALACIOS",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "keaguilarp@correo.udistrital.edu.co",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020008",
+  "fields": {
+    "nom_estu": "DANA JULIETH",
+    "apell_estu": "FRANCO PINILLA",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "djfrancop@correo.udistrital.edu.co",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020009",
+  "fields": {
+    "nom_estu": "NICOLAS GUSTAVO",
+    "apell_estu": "PEDRAZA MARTINEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "ngpedrazam@correo.udistrital.edu.co",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "users.estudiante",
+  "pk": "20221020010",
+  "fields": {
+    "nom_estu": "ANDERSON CAMILO",
+    "apell_estu": "ZAMBRANO VASQUEZ",
+    "fecha_reg_estu": "2022-08-10",
+    "fecha_nac_estu": "2022-08-10",
+    "correo_ud_estu": "aczambranov@correo.udistrital.edu.co",
+    "espacio": "S1"
+  }
+}
+]
