@@ -4,7 +4,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 # Models
 from django.contrib.auth.models import User
-from users.models import Persona, Estudiante, Rol, TipoDocumento, Empleado
+from users.models import Persona, Estudiante, Rol, TipoDocumento, Empleado, EmpleadoCargo, Cargo, Responsable, AsisResponsable
 
 class UserAdmin(admin.ModelAdmin):
 	readonly_fields = ('created', 'updated')
@@ -57,3 +57,7 @@ admin.site.register(Estudiante)
 admin.site.register(Rol)
 admin.site.register(TipoDocumento)
 admin.site.register(Empleado)
+admin.site.register(EmpleadoCargo)
+admin.site.register(Cargo)
+admin.site.register(Responsable)
+admin.site.register(AsisResponsable)
