@@ -1,0 +1,112 @@
+[
+{
+  "model": "sports.elementodeportivo",
+  "pk": 1,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "01",
+    "estado": "01",
+    "marca": "01",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 2,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "02",
+    "estado": "01",
+    "marca": "02",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 3,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "03",
+    "estado": "01",
+    "marca": "03",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 4,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "01",
+    "estado": "01",
+    "marca": "04",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 5,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "10",
+    "estado": "01",
+    "marca": "07",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 6,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "13",
+    "estado": "02",
+    "marca": "12",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 7,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "12",
+    "estado": "02",
+    "marca": "11",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 8,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "11",
+    "estado": "02",
+    "marca": "10",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 9,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "10",
+    "estado": "02",
+    "marca": "09",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 10,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "01",
+    "estado": "02",
+    "marca": "07",
+    "espacio": "S1"
+  }
+}
+]

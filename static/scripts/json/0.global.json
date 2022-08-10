@@ -1,0 +1,2120 @@
+[
+  {
+    "model": "users.tipodocumento",
+    "pk": 1,
+    "fields": {
+      "abreviacion": "CC",
+      "desc_tipo": "Cédula de ciudadanía"
+    }
+  },
+  {
+    "model": "users.tipodocumento",
+    "pk": 2,
+    "fields": {
+      "abreviacion": "CE",
+      "desc_tipo": "Cedula de extranjeria"
+    }
+  },
+  {
+    "model": "users.tipodocumento",
+    "pk": 3,
+    "fields": {
+      "abreviacion": "NIP",
+      "desc_tipo": "Número de identificación personal"
+    }
+  },
+  {
+    "model": "users.tipodocumento",
+    "pk": 4,
+    "fields": {
+      "abreviacion": "NIT",
+      "desc_tipo": "Número de identificación tributaria"
+    }
+  },
+  {
+    "model": "users.tipodocumento",
+    "pk": 5,
+    "fields": {
+      "abreviacion": "TI",
+      "desc_tipo": "Tarjeta de identidad"
+    }
+  },
+  {
+    "model": "users.tipodocumento",
+    "pk": 6,
+    "fields": {
+      "abreviacion": "PAP",
+      "desc_tipo": "Pasaporte"
+    }
+  },
+  {
+    "model": "users.rol",
+    "pk": "1",
+    "fields": {
+      "desc_rol": "Director Deport"
+    }
+  },
+  {
+    "model": "users.rol",
+    "pk": "2",
+    "fields": {
+      "desc_rol": "Docente"
+    }
+  },
+  {
+    "model": "users.rol",
+    "pk": "3",
+    "fields": {
+      "desc_rol": "Entranador"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "01",
+    "fields": {
+      "desc_tipo_espacio": "Unidad"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "02",
+    "fields": {
+      "desc_tipo_espacio": "Sede"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "03",
+    "fields": {
+      "desc_tipo_espacio": "Campo"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "04",
+    "fields": {
+      "desc_tipo_espacio": "Pista"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "05",
+    "fields": {
+      "desc_tipo_espacio": "Salón"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "06",
+    "fields": {
+      "desc_tipo_espacio": "Piscina"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "07",
+    "fields": {
+      "desc_tipo_espacio": "Sala de máquinas"
+    }
+  },
+  {
+    "model": "programming.tipoespacio",
+    "pk": "08",
+    "fields": {
+      "desc_tipo_espacio": "Muro de escalar"
+    }
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20191",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20192",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20193",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20201",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20202",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20203",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20211",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20212",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20213",
+    "fields": {}
+  },
+  {
+    "model": "programming.periodo",
+    "pk": "20221",
+    "fields": {}
+  },
+  {
+    "model": "programming.actividad",
+    "pk": "CU",
+    "fields": {
+      "desc_actividad": "Curso"
+    }
+  },
+  {
+    "model": "programming.actividad",
+    "pk": "EN",
+    "fields": {
+      "desc_actividad": "Entrenamiento"
+    }
+  },
+  {
+    "model": "programming.actividad",
+    "pk": "PR",
+    "fields": {
+      "desc_actividad": "Práctica"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "01",
+    "fields": {
+      "hora": "06:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "02",
+    "fields": {
+      "hora": "07:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "03",
+    "fields": {
+      "hora": "08:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "04",
+    "fields": {
+      "hora": "09:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "05",
+    "fields": {
+      "hora": "10:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "06",
+    "fields": {
+      "hora": "11:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "07",
+    "fields": {
+      "hora": "12:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "08",
+    "fields": {
+      "hora": "13:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "09",
+    "fields": {
+      "hora": "14:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "10",
+    "fields": {
+      "hora": "15:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "11",
+    "fields": {
+      "hora": "16:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "12",
+    "fields": {
+      "hora": "17:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "13",
+    "fields": {
+      "hora": "18:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "14",
+    "fields": {
+      "hora": "19:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "15",
+    "fields": {
+      "hora": "20:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "16",
+    "fields": {
+      "hora": "21:00:00"
+    }
+  },
+  {
+    "model": "programming.hora",
+    "pk": "17",
+    "fields": {
+      "hora": "22:00:00"
+    }
+  },
+  {
+    "model": "programming.dia",
+    "pk": "1",
+    "fields": {
+      "nom_dia": "Domingo"
+    }
+  },
+  {
+    "model": "programming.dia",
+    "pk": "2",
+    "fields": {
+      "nom_dia": "Lunes"
+    }
+  },
+  {
+    "model": "programming.dia",
+    "pk": "3",
+    "fields": {
+      "nom_dia": "Martes"
+    }
+  },
+  {
+    "model": "programming.dia",
+    "pk": "4",
+    "fields": {
+      "nom_dia": "Miércoles"
+    }
+  },
+  {
+    "model": "programming.dia",
+    "pk": "5",
+    "fields": {
+      "nom_dia": "Jueves"
+    }
+  },
+  {
+    "model": "programming.dia",
+    "pk": "6",
+    "fields": {
+      "nom_dia": "Viernes"
+    }
+  },
+  {
+    "model": "programming.dia",
+    "pk": "7",
+    "fields": {
+      "nom_dia": "Sábado"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "01",
+    "fields": {
+      "desc_tipo_elemento": "Balón Baloncesto"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "02",
+    "fields": {
+      "desc_tipo_elemento": "Balón Futbol"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "03",
+    "fields": {
+      "desc_tipo_elemento": "Balón Voleibol"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "04",
+    "fields": {
+      "desc_tipo_elemento": "Pelota Tenis mesa"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "05",
+    "fields": {
+      "desc_tipo_elemento": "Pelota Tenis campo"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "06",
+    "fields": {
+      "desc_tipo_elemento": "Colchoneta"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "07",
+    "fields": {
+      "desc_tipo_elemento": "Lazo salto"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "08",
+    "fields": {
+      "desc_tipo_elemento": "Guantes Box"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "09",
+    "fields": {
+      "desc_tipo_elemento": "Malla Volibol"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "10",
+    "fields": {
+      "desc_tipo_elemento": "Saco Boxeo"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "11",
+    "fields": {
+      "desc_tipo_elemento": "Aros hula-hula"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "12",
+    "fields": {
+      "desc_tipo_elemento": "Chaleco Boxeo"
+    }
+  },
+  {
+    "model": "sports.tipoelemento",
+    "pk": "13",
+    "fields": {
+      "desc_tipo_elemento": "Malla Pimpón"
+    }
+  },
+  {
+    "model": "sports.estado",
+    "pk": "01",
+    "fields": {
+      "desc_estado": "Activo"
+    }
+  },
+  {
+    "model": "sports.estado",
+    "pk": "02",
+    "fields": {
+      "desc_estado": "Prestado"
+    }
+  },
+  {
+    "model": "sports.estado",
+    "pk": "03",
+    "fields": {
+      "desc_estado": "Dañado"
+    }
+  },
+  {
+    "model": "sports.estado",
+    "pk": "04",
+    "fields": {
+      "desc_estado": "Perdido"
+    }
+  },
+  {
+    "model": "sports.estado",
+    "pk": "05",
+    "fields": {
+      "desc_estado": "De baja"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "01",
+    "fields": {
+      "nom_marca": "Nike"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "02",
+    "fields": {
+      "nom_marca": "Adidas"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "03",
+    "fields": {
+      "nom_marca": "Puma"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "04",
+    "fields": {
+      "nom_marca": "Reebok"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "05",
+    "fields": {
+      "nom_marca": "Fila"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "06",
+    "fields": {
+      "nom_marca": "Asics"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "07",
+    "fields": {
+      "nom_marca": "Kappa"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "08",
+    "fields": {
+      "nom_marca": "The North Face"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "09",
+    "fields": {
+      "nom_marca": "Under Armour"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "10",
+    "fields": {
+      "nom_marca": "Under Armour"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "11",
+    "fields": {
+      "nom_marca": "Converse"
+    }
+  },
+  {
+    "model": "sports.marca",
+    "pk": "12",
+    "fields": {
+      "nom_marca": "TI Colombia"
+    }
+  },
+  {
+    "model": "users.cargo",
+    "pk": "01",
+    "fields": {
+      "desc_cargo": "Auxiliar"
+    }
+  },
+  {
+    "model": "users.cargo",
+    "pk": "02",
+    "fields": {
+      "desc_cargo": "Docente"
+    }
+  },
+  {
+    "model": "users.cargo",
+    "pk": "03",
+    "fields": {
+      "desc_cargo": "Director Deportivo"
+    }
+  },
+  {
+    "model": "users.cargo",
+    "pk": "04",
+    "fields": {
+      "desc_cargo": "Admin Deportivo"
+    }
+  },
+  {
+    "model": "users.cargo",
+    "pk": "05",
+    "fields": {
+      "desc_cargo": "Fisioterapeuta"
+    }
+  },
+  {
+    "model": "users.cargo",
+    "pk": "06",
+    "fields": {
+      "desc_cargo": "Entrenador"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0001",
+    "fields": {
+      "nom_empleado": "Jhony",
+      "apell_empleado": "Sanchez",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "jhonysanche@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0002",
+    "fields": {
+      "nom_empleado": "Daniel",
+      "apell_empleado": "Garcia",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "dgarcia@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0003",
+    "fields": {
+      "nom_empleado": "Alejandro",
+      "apell_empleado": "Cortes",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "acortes@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0004",
+    "fields": {
+      "nom_empleado": "Viviana",
+      "apell_empleado": "Garcia",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "vgarcia@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0005",
+    "fields": {
+      "nom_empleado": "Angie",
+      "apell_empleado": "Bustos",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "abustos@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0006",
+    "fields": {
+      "nom_empleado": "Juan",
+      "apell_empleado": "Herrera",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "jherrera@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0007",
+    "fields": {
+      "nom_empleado": "Juan",
+      "apell_empleado": "Ramirez",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "jramirez@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0008",
+    "fields": {
+      "nom_empleado": "Alejandro",
+      "apell_empleado": "Gaviria",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "agaviria@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0009",
+    "fields": {
+      "nom_empleado": "Diego",
+      "apell_empleado": "Tellez",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "dtellez@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleado",
+    "pk": "0010",
+    "fields": {
+      "nom_empleado": "Esteban",
+      "apell_empleado": "Olaya",
+      "fecha_registro": "2022-08-10",
+      "correo_ud": "eolaya@udistrital.edu.co"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 1,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "03",
+      "espacio": "C1",
+      "empleado": "0001"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 2,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "03",
+      "espacio": "C1",
+      "empleado": "0001"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 3,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S2",
+      "empleado": "0002"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 4,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S1",
+      "empleado": "0003"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 5,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S1",
+      "empleado": "0004"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 6,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "02",
+      "espacio": "S3",
+      "empleado": "0005"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 7,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "01",
+      "espacio": "01",
+      "empleado": "0006"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 8,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "01",
+      "espacio": "01",
+      "empleado": "0007"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 9,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "06",
+      "espacio": "S1",
+      "empleado": "0008"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 10,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "06",
+      "espacio": "S2",
+      "empleado": "0009"
+    }
+  },
+  {
+    "model": "users.empleadocargo",
+    "pk": 11,
+    "fields": {
+      "fecha_cargo": "2022-08-10",
+      "fecha_fin_cargo": "2022-08-10",
+      "cargo": "06",
+      "espacio": "S3",
+      "empleado": "0010"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 1,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "01",
+      "empleado": "0002"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 2,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "02",
+      "empleado": "0003"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 3,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "03",
+      "empleado": "0004"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 4,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "04",
+      "empleado": "0005"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 5,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "05",
+      "empleado": "0002"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 6,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "06",
+      "empleado": "0003"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 7,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "07",
+      "empleado": "0004"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 8,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "08",
+      "empleado": "0005"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 9,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "09",
+      "empleado": "0002"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 10,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "10",
+      "empleado": "0003"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 11,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "10",
+      "empleado": "0004"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 12,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "11",
+      "empleado": "0005"
+    }
+  },
+  {
+    "model": "teams.equipo",
+    "pk": 13,
+    "fields": {
+      "fecha_resol": "2022-08-10",
+      "deporte": "12",
+      "empleado": "0002"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "01",
+    "fields": {
+      "nom_espacio": "Unidad deportiva el Salitre",
+      "tipo_espacio": "01"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "C1",
+    "fields": {
+      "nom_espacio": "Campo de Fútbol Millonarios FC",
+      "tipo_espacio": "03"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "C2",
+    "fields": {
+      "nom_espacio": "Campo de Atletismo El Dorado",
+      "tipo_espacio": "03"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "C3",
+    "fields": {
+      "nom_espacio": "Campo de patinaje Cafam",
+      "tipo_espacio": "03"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J0",
+    "fields": {
+      "nom_espacio": "Salón 1 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J1",
+    "fields": {
+      "nom_espacio": "Salón 2 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J2",
+    "fields": {
+      "nom_espacio": "Salón 3 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J3",
+    "fields": {
+      "nom_espacio": "Salón 4 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J4",
+    "fields": {
+      "nom_espacio": "Salón 5 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J5",
+    "fields": {
+      "nom_espacio": "Salón 6 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J6",
+    "fields": {
+      "nom_espacio": "Salón 7 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J7",
+    "fields": {
+      "nom_espacio": "Salón 8 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J8",
+    "fields": {
+      "nom_espacio": "Salón 9 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "J9",
+    "fields": {
+      "nom_espacio": "Salón 10 Cafam Madelena",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K0",
+    "fields": {
+      "nom_espacio": "Salón 1 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K1",
+    "fields": {
+      "nom_espacio": "Salón 2 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K2",
+    "fields": {
+      "nom_espacio": "Salón 3 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K3",
+    "fields": {
+      "nom_espacio": "Salón 4 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K4",
+    "fields": {
+      "nom_espacio": "Salón 5 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K5",
+    "fields": {
+      "nom_espacio": "Salón 6 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K6",
+    "fields": {
+      "nom_espacio": "Salón 7 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K7",
+    "fields": {
+      "nom_espacio": "Salón 8 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K8",
+    "fields": {
+      "nom_espacio": "Salón 9 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "K9",
+    "fields": {
+      "nom_espacio": "Salón 10 Millonarios FC",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L0",
+    "fields": {
+      "nom_espacio": "Salón 10 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L1",
+    "fields": {
+      "nom_espacio": "Salón 1 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L2",
+    "fields": {
+      "nom_espacio": "Salón 2 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L3",
+    "fields": {
+      "nom_espacio": "Salón 3 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L4",
+    "fields": {
+      "nom_espacio": "Salón 4 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L5",
+    "fields": {
+      "nom_espacio": "Salón 5 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L6",
+    "fields": {
+      "nom_espacio": "Salón 6 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L7",
+    "fields": {
+      "nom_espacio": "Salón 7 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L8",
+    "fields": {
+      "nom_espacio": "Salón 8 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "L9",
+    "fields": {
+      "nom_espacio": "Salón 9 El Dorado",
+      "tipo_espacio": "05"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "M1",
+    "fields": {
+      "nom_espacio": "Sala Máquinas Millonarios FC",
+      "tipo_espacio": "07"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "M2",
+    "fields": {
+      "nom_espacio": "Sala Máquinas El Dorado",
+      "tipo_espacio": "07"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "M3",
+    "fields": {
+      "nom_espacio": "Sala Máquinas Cafam",
+      "tipo_espacio": "07"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "N1",
+    "fields": {
+      "nom_espacio": "Piscina Millonarios FC",
+      "tipo_espacio": "06"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "N2",
+    "fields": {
+      "nom_espacio": "Piscina Olimpica El Dorado",
+      "tipo_espacio": "06"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "N3",
+    "fields": {
+      "nom_espacio": "Piscina Infantil Cafam",
+      "tipo_espacio": "06"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "P1",
+    "fields": {
+      "nom_espacio": "Pista Millonarios FC",
+      "tipo_espacio": "04"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "P2",
+    "fields": {
+      "nom_espacio": "Pista BMX El Dorado",
+      "tipo_espacio": "04"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "P3",
+    "fields": {
+      "nom_espacio": "Pista Ciclismo Cafam",
+      "tipo_espacio": "04"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "S1",
+    "fields": {
+      "nom_espacio": "Sede Deportiva El Dorado",
+      "tipo_espacio": "02"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "S2",
+    "fields": {
+      "nom_espacio": "Sede Deportiva Millonarios FC",
+      "tipo_espacio": "02"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "S3",
+    "fields": {
+      "nom_espacio": "Club deportivo Cafam Madelena",
+      "tipo_espacio": "02"
+    }
+  },
+  {
+    "model": "programming.espacio",
+    "pk": "U1",
+    "fields": {
+      "nom_espacio": "Unidad deportiva el Salitre",
+      "tipo_espacio": "01"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 1,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "01",
+      "estado": "01",
+      "marca": "01",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 2,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "02",
+      "estado": "01",
+      "marca": "02",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 3,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "03",
+      "estado": "01",
+      "marca": "03",
+      "espacio": "S3"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 4,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "01",
+      "estado": "01",
+      "marca": "04",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 5,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "10",
+      "estado": "01",
+      "marca": "07",
+      "espacio": "S3"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 6,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "13",
+      "estado": "02",
+      "marca": "12",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 7,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "12",
+      "estado": "02",
+      "marca": "11",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 8,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "11",
+      "estado": "02",
+      "marca": "10",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 9,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "10",
+      "estado": "02",
+      "marca": "09",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "sports.elementodeportivo",
+    "pk": 10,
+    "fields": {
+      "fecha_registro": "2022-08-10",
+      "tipo_elemento": "01",
+      "estado": "02",
+      "marca": "07",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "01",
+    "fields": {
+      "nom_deporte": "Atletismo",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "07",
+        "11"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "02",
+    "fields": {
+      "nom_deporte": "Tenis",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "05"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "03",
+    "fields": {
+      "nom_deporte": "Tenis Mesa",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "04"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "04",
+    "fields": {
+      "nom_deporte": "Natación",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "06"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "05",
+    "fields": {
+      "nom_deporte": "Voleibol",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "03"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "06",
+    "fields": {
+      "nom_deporte": "Futbol",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "02"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "07",
+    "fields": {
+      "nom_deporte": "Futbol sala",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "02"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "08",
+    "fields": {
+      "nom_deporte": "Bádminton",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "13"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "09",
+    "fields": {
+      "nom_deporte": "Aeróbicos",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "06"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "10",
+    "fields": {
+      "nom_deporte": "Boxeo",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "08",
+        "10"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "11",
+    "fields": {
+      "nom_deporte": "Artes Marciales",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "08",
+        "10",
+        "12"
+      ]
+    }
+  },
+  {
+    "model": "sports.deporte",
+    "pk": "12",
+    "fields": {
+      "nom_deporte": "Gimnasia Olimpica",
+      "espacio": [
+        "01"
+      ],
+      "tipo_elemento": [
+        "06",
+        "07",
+        "11"
+      ]
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020001",
+    "fields": {
+      "nom_estu": "DANA JULIETH",
+      "apell_estu": "PEDRAZA MARTINEZ",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "djpedrazam@correo.udistrital.edu.co",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020002",
+    "fields": {
+      "nom_estu": "NICOLAS GUSTAVO",
+      "apell_estu": "FRANCO PINILLA",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "fpnicolasg@correo.udistrital.edu.co",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020003",
+    "fields": {
+      "nom_estu": "ANDERSON CAMILO",
+      "apell_estu": "JIMENEZ VILLAREAL",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "acjimenezv@correo.udistrital.edu.co",
+      "espacio": "S3"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020004",
+    "fields": {
+      "nom_estu": "SANTIAGO ANDRES",
+      "apell_estu": "ZAMBRANO VASQUEZ",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "sazambranov@correo.udistrital.edu.co",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020005",
+    "fields": {
+      "nom_estu": "JUAN DAVID",
+      "apell_estu": "OSORIO GONZALEZ",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "jdosoriog@correo.udistrital.edu.co",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020006",
+    "fields": {
+      "nom_estu": "EDISSON DAVID",
+      "apell_estu": "CRESPO JAMIOY",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "edcrespoj@correo.udistrital.edu.co",
+      "espacio": "S3"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020007",
+    "fields": {
+      "nom_estu": "KAROL ESTEFANIA",
+      "apell_estu": "AGUILAR PALACIOS",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "keaguilarp@correo.udistrital.edu.co",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020008",
+    "fields": {
+      "nom_estu": "DANA JULIETH",
+      "apell_estu": "FRANCO PINILLA",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "djfrancop@correo.udistrital.edu.co",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020009",
+    "fields": {
+      "nom_estu": "NICOLAS GUSTAVO",
+      "apell_estu": "PEDRAZA MARTINEZ",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "ngpedrazam@correo.udistrital.edu.co",
+      "espacio": "S3"
+    }
+  },
+  {
+    "model": "users.estudiante",
+    "pk": "20221020010",
+    "fields": {
+      "nom_estu": "ANDERSON CAMILO",
+      "apell_estu": "ZAMBRANO VASQUEZ",
+      "fecha_reg_estu": "2022-08-10",
+      "fecha_nac_estu": "2022-08-10",
+      "correo_ud_estu": "aczambranov@correo.udistrital.edu.co",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 1,
+    "fields": {
+      "cupo": 22,
+      "no_inscritos": 14,
+      "periodo": "20191",
+      "actividad": "CU",
+      "hora_inicio": "01",
+      "dia": "1",
+      "deporte_fk": "01",
+      "espacio": "01"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 2,
+    "fields": {
+      "cupo": 10,
+      "no_inscritos": 5,
+      "periodo": "20191",
+      "actividad": "CU",
+      "hora_inicio": "02",
+      "dia": "1",
+      "deporte_fk": "02",
+      "espacio": "S1"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 3,
+    "fields": {
+      "cupo": 10,
+      "no_inscritos": 4,
+      "periodo": "20191",
+      "actividad": "CU",
+      "hora_inicio": "03",
+      "dia": "1",
+      "deporte_fk": "03",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 4,
+    "fields": {
+      "cupo": 40,
+      "no_inscritos": 35,
+      "periodo": "20191",
+      "actividad": "CU",
+      "hora_inicio": "07",
+      "dia": "1",
+      "deporte_fk": "06",
+      "espacio": "S2"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 5,
+    "fields": {
+      "cupo": 10,
+      "no_inscritos": 5,
+      "periodo": "20191",
+      "actividad": "EN",
+      "hora_inicio": "01",
+      "dia": "7",
+      "deporte_fk": "10",
+      "espacio": "01"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 6,
+    "fields": {
+      "cupo": 10,
+      "no_inscritos": 10,
+      "periodo": "20191",
+      "actividad": "EN",
+      "hora_inicio": "01",
+      "dia": "7",
+      "deporte_fk": "11",
+      "espacio": "01"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 7,
+    "fields": {
+      "cupo": 12,
+      "no_inscritos": 8,
+      "periodo": "20191",
+      "actividad": "EN",
+      "hora_inicio": "05",
+      "dia": "2",
+      "deporte_fk": "11",
+      "espacio": "01"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 8,
+    "fields": {
+      "cupo": 22,
+      "no_inscritos": 15,
+      "periodo": "20191",
+      "actividad": "EN",
+      "hora_inicio": "04",
+      "dia": "4",
+      "deporte_fk": "09",
+      "espacio": "01"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 9,
+    "fields": {
+      "cupo": 22,
+      "no_inscritos": 20,
+      "periodo": "20201",
+      "actividad": "PR",
+      "hora_inicio": "09",
+      "dia": "3",
+      "deporte_fk": "06",
+      "espacio": "K0"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 10,
+    "fields": {
+      "cupo": 22,
+      "no_inscritos": 22,
+      "periodo": "20191",
+      "actividad": "PR",
+      "hora_inicio": "10",
+      "dia": "6",
+      "deporte_fk": "07",
+      "espacio": "L8"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 11,
+    "fields": {
+      "cupo": 40,
+      "no_inscritos": 35,
+      "periodo": "20212",
+      "actividad": "PR",
+      "hora_inicio": "13",
+      "dia": "5",
+      "deporte_fk": "04",
+      "espacio": "N2"
+    }
+  },
+  {
+    "model": "programming.programacion",
+    "pk": 12,
+    "fields": {
+      "cupo": 23,
+      "no_inscritos": 20,
+      "periodo": "20221",
+      "actividad": "PR",
+      "hora_inicio": "01",
+      "dia": "1",
+      "deporte_fk": "04",
+      "espacio": "N2"
+    }
+  },
+  {
+    "model": "programming.inscritopractlibre",
+    "pk": 1,
+    "fields": {
+      "programacion": 1,
+      "estudiante": "20221020010",
+      "empleado": "0002"
+    }
+  },
+  {
+    "model": "programming.inscritopractlibre",
+    "pk": 2,
+    "fields": {
+      "programacion": 2,
+      "estudiante": "20221020007",
+      "empleado": "0003"
+    }
+  },
+  {
+    "model": "programming.inscritopractlibre",
+    "pk": 3,
+    "fields": {
+      "programacion": 3,
+      "estudiante": "20221020004",
+      "empleado": "0004"
+    }
+  },
+  {
+    "model": "programming.inscritopractlibre",
+    "pk": 4,
+    "fields": {
+      "programacion": 4,
+      "estudiante": "20221020001",
+      "empleado": "0005"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 1,
+    "fields": {
+      "equipo": 1,
+      "estudiante": "20221020001"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 2,
+    "fields": {
+      "equipo": 1,
+      "estudiante": "20221020002"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 3,
+    "fields": {
+      "equipo": 2,
+      "estudiante": "20221020003"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 4,
+    "fields": {
+      "equipo": 4,
+      "estudiante": "20221020004"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 5,
+    "fields": {
+      "equipo": 5,
+      "estudiante": "20221020005"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 6,
+    "fields": {
+      "equipo": 6,
+      "estudiante": "20221020006"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 7,
+    "fields": {
+      "equipo": 8,
+      "estudiante": "20221020008"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 8,
+    "fields": {
+      "equipo": 9,
+      "estudiante": "20221020009"
+    }
+  },
+  {
+    "model": "teams.miembroequipo",
+    "pk": 9,
+    "fields": {
+      "equipo": 10,
+      "estudiante": "20221020010"
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 1,
+    "fields": {
+      "programacion": 1,
+      "miembro_equipo": 1
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 2,
+    "fields": {
+      "programacion": 2,
+      "miembro_equipo": 2
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 3,
+    "fields": {
+      "programacion": 3,
+      "miembro_equipo": 3
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 4,
+    "fields": {
+      "programacion": 4,
+      "miembro_equipo": 4
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 5,
+    "fields": {
+      "programacion": 8,
+      "miembro_equipo": 4
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 6,
+    "fields": {
+      "programacion": 5,
+      "miembro_equipo": 5
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 7,
+    "fields": {
+      "programacion": 6,
+      "miembro_equipo": 6
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 8,
+    "fields": {
+      "programacion": 7,
+      "miembro_equipo": 7
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 9,
+    "fields": {
+      "programacion": 12,
+      "miembro_equipo": 8
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 10,
+    "fields": {
+      "programacion": 11,
+      "miembro_equipo": 4
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 11,
+    "fields": {
+      "programacion": 11,
+      "miembro_equipo": 8
+    }
+  },
+  {
+    "model": "teams.asismiembroequipo",
+    "pk": 12,
+    "fields": {
+      "programacion": 10,
+      "miembro_equipo": 1
+    }
+  },
+  {
+    "model": "users.responsable",
+    "pk": 1,
+    "fields": {
+      "fecha_inicio": "2022-08-10",
+      "fecha_fin": "2022-08-10",
+      "programacion": 1,
+      "rol": "2",
+      "empleado": "0002",
+      "estudiante": "20221020001"
+    }
+  },
+  {
+    "model": "users.responsable",
+    "pk": 2,
+    "fields": {
+      "fecha_inicio": "2022-08-10",
+      "fecha_fin": "2022-08-10",
+      "programacion": 1,
+      "rol": "2",
+      "empleado": "0005",
+      "estudiante": "20221020002"
+    }
+  }
+]

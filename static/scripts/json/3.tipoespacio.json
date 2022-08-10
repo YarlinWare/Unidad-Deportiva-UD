@@ -1,0 +1,58 @@
+[
+{
+  "model": "programming.tipoespacio",
+  "pk": "01",
+  "fields": {
+    "desc_tipo_espacio": "Unidad"
+  }
+},
+{
+  "model": "programming.tipoespacio",
+  "pk": "02",
+  "fields": {
+    "desc_tipo_espacio": "Sede"
+  }
+},
+{
+  "model": "programming.tipoespacio",
+  "pk": "03",
+  "fields": {
+    "desc_tipo_espacio": "Campo"
+  }
+},
+{
+  "model": "programming.tipoespacio",
+  "pk": "04",
+  "fields": {
+    "desc_tipo_espacio": "Pista"
+  }
+},
+{
+  "model": "programming.tipoespacio",
+  "pk": "05",
+  "fields": {
+    "desc_tipo_espacio": "Salón"
+  }
+},
+{
+  "model": "programming.tipoespacio",
+  "pk": "06",
+  "fields": {
+    "desc_tipo_espacio": "Piscina"
+  }
+},
+{
+  "model": "programming.tipoespacio",
+  "pk": "07",
+  "fields": {
+    "desc_tipo_espacio": "Sala de máquinas"
+  }
+},
+{
+  "model": "programming.tipoespacio",
+  "pk": "08",
+  "fields": {
+    "desc_tipo_espacio": "Muro de escalar"
+  }
+}
+]

@@ -1,0 +1,98 @@
+[
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 1,
+  "fields": {
+    "programacion": 1,
+    "miembro_equipo": 1
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 2,
+  "fields": {
+    "programacion": 2,
+    "miembro_equipo": 2
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 3,
+  "fields": {
+    "programacion": 3,
+    "miembro_equipo": 3
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 4,
+  "fields": {
+    "programacion": 4,
+    "miembro_equipo": 4
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 5,
+  "fields": {
+    "programacion": 8,
+    "miembro_equipo": 4
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 6,
+  "fields": {
+    "programacion": 5,
+    "miembro_equipo": 5
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 7,
+  "fields": {
+    "programacion": 6,
+    "miembro_equipo": 6
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 8,
+  "fields": {
+    "programacion": 7,
+    "miembro_equipo": 7
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 9,
+  "fields": {
+    "programacion": 12,
+    "miembro_equipo": 8
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 10,
+  "fields": {
+    "programacion": 11,
+    "miembro_equipo": 4
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 11,
+  "fields": {
+    "programacion": 11,
+    "miembro_equipo": 8
+  }
+},
+{
+  "model": "teams.asismiembroequipo",
+  "pk": 12,
+  "fields": {
+    "programacion": 10,
+    "miembro_equipo": 1
+  }
+}
+]

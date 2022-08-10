@@ -1,0 +1,38 @@
+[
+{
+  "model": "programming.inscritopractlibre",
+  "pk": 1,
+  "fields": {
+    "programacion": 1,
+    "estudiante": "20221020010",
+    "empleado": "0002"
+  }
+},
+{
+  "model": "programming.inscritopractlibre",
+  "pk": 2,
+  "fields": {
+    "programacion": 2,
+    "estudiante": "20221020007",
+    "empleado": "0003"
+  }
+},
+{
+  "model": "programming.inscritopractlibre",
+  "pk": 3,
+  "fields": {
+    "programacion": 3,
+    "estudiante": "20221020004",
+    "empleado": "0004"
+  }
+},
+{
+  "model": "programming.inscritopractlibre",
+  "pk": 4,
+  "fields": {
+    "programacion": 4,
+    "estudiante": "20221020001",
+    "empleado": "0005"
+  }
+}
+]

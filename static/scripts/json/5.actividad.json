@@ -1,0 +1,23 @@
+[
+{
+  "model": "programming.actividad",
+  "pk": "CU",
+  "fields": {
+    "desc_actividad": "Curso"
+  }
+},
+{
+  "model": "programming.actividad",
+  "pk": "EN",
+  "fields": {
+    "desc_actividad": "Entrenamiento"
+  }
+},
+{
+  "model": "programming.actividad",
+  "pk": "PR",
+  "fields": {
+    "desc_actividad": "Práctica"
+  }
+}
+]

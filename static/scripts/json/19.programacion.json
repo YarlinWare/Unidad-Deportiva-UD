@@ -1,0 +1,170 @@
+[
+{
+  "model": "programming.programacion",
+  "pk": 1,
+  "fields": {
+    "cupo": 22,
+    "no_inscritos": 14,
+    "periodo": "20191",
+    "actividad": "CU",
+    "hora_inicio": "01",
+    "dia": "1",
+    "deporte_fk": "01",
+    "espacio": "01"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 2,
+  "fields": {
+    "cupo": 10,
+    "no_inscritos": 5,
+    "periodo": "20191",
+    "actividad": "CU",
+    "hora_inicio": "02",
+    "dia": "1",
+    "deporte_fk": "02",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 3,
+  "fields": {
+    "cupo": 10,
+    "no_inscritos": 4,
+    "periodo": "20191",
+    "actividad": "CU",
+    "hora_inicio": "03",
+    "dia": "1",
+    "deporte_fk": "03",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 4,
+  "fields": {
+    "cupo": 40,
+    "no_inscritos": 35,
+    "periodo": "20191",
+    "actividad": "CU",
+    "hora_inicio": "07",
+    "dia": "1",
+    "deporte_fk": "06",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 5,
+  "fields": {
+    "cupo": 10,
+    "no_inscritos": 5,
+    "periodo": "20191",
+    "actividad": "EN",
+    "hora_inicio": "01",
+    "dia": "7",
+    "deporte_fk": "10",
+    "espacio": "01"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 6,
+  "fields": {
+    "cupo": 10,
+    "no_inscritos": 10,
+    "periodo": "20191",
+    "actividad": "EN",
+    "hora_inicio": "01",
+    "dia": "7",
+    "deporte_fk": "11",
+    "espacio": "01"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 7,
+  "fields": {
+    "cupo": 12,
+    "no_inscritos": 8,
+    "periodo": "20191",
+    "actividad": "EN",
+    "hora_inicio": "05",
+    "dia": "2",
+    "deporte_fk": "11",
+    "espacio": "01"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 8,
+  "fields": {
+    "cupo": 22,
+    "no_inscritos": 15,
+    "periodo": "20191",
+    "actividad": "EN",
+    "hora_inicio": "04",
+    "dia": "4",
+    "deporte_fk": "09",
+    "espacio": "01"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 9,
+  "fields": {
+    "cupo": 22,
+    "no_inscritos": 20,
+    "periodo": "20201",
+    "actividad": "PR",
+    "hora_inicio": "09",
+    "dia": "3",
+    "deporte_fk": "06",
+    "espacio": "K0"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 10,
+  "fields": {
+    "cupo": 22,
+    "no_inscritos": 22,
+    "periodo": "20191",
+    "actividad": "PR",
+    "hora_inicio": "10",
+    "dia": "6",
+    "deporte_fk": "07",
+    "espacio": "L8"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 11,
+  "fields": {
+    "cupo": 40,
+    "no_inscritos": 35,
+    "periodo": "20212",
+    "actividad": "PR",
+    "hora_inicio": "13",
+    "dia": "5",
+    "deporte_fk": "04",
+    "espacio": "N2"
+  }
+},
+{
+  "model": "programming.programacion",
+  "pk": 12,
+  "fields": {
+    "cupo": 23,
+    "no_inscritos": 20,
+    "periodo": "20221",
+    "actividad": "PR",
+    "hora_inicio": "01",
+    "dia": "1",
+    "deporte_fk": "04",
+    "espacio": "N2"
+  }
+}
+]

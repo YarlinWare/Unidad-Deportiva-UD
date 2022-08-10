@@ -1,0 +1,119 @@
+[
+{
+  "model": "teams.equipo",
+  "pk": 1,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "01",
+    "empleado": "0002"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 2,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "02",
+    "empleado": "0003"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 3,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "03",
+    "empleado": "0004"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 4,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "04",
+    "empleado": "0005"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 5,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "05",
+    "empleado": "0002"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 6,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "06",
+    "empleado": "0003"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 7,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "07",
+    "empleado": "0004"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 8,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "08",
+    "empleado": "0005"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 9,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "09",
+    "empleado": "0002"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 10,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "10",
+    "empleado": "0003"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 11,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "10",
+    "empleado": "0004"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 12,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "11",
+    "empleado": "0005"
+  }
+},
+{
+  "model": "teams.equipo",
+  "pk": 13,
+  "fields": {
+    "fecha_resol": "2022-08-10",
+    "deporte": "12",
+    "empleado": "0002"
+  }
+}
+]

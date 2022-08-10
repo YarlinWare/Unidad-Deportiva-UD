@@ -1,0 +1,121 @@
+[
+{
+  "model": "programming.hora",
+  "pk": "01",
+  "fields": {
+    "hora": "06:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "02",
+  "fields": {
+    "hora": "07:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "03",
+  "fields": {
+    "hora": "08:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "04",
+  "fields": {
+    "hora": "09:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "05",
+  "fields": {
+    "hora": "10:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "06",
+  "fields": {
+    "hora": "11:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "07",
+  "fields": {
+    "hora": "12:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "08",
+  "fields": {
+    "hora": "13:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "09",
+  "fields": {
+    "hora": "14:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "10",
+  "fields": {
+    "hora": "15:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "11",
+  "fields": {
+    "hora": "16:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "12",
+  "fields": {
+    "hora": "17:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "13",
+  "fields": {
+    "hora": "18:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "14",
+  "fields": {
+    "hora": "19:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "15",
+  "fields": {
+    "hora": "20:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "16",
+  "fields": {
+    "hora": "21:00:00"
+  }
+},
+{
+  "model": "programming.hora",
+  "pk": "17",
+  "fields": {
+    "hora": "22:00:00"
+  }
+}
+]

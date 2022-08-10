@@ -1,0 +1,164 @@
+[
+{
+  "model": "sports.deporte",
+  "pk": "01",
+  "fields": {
+    "nom_deporte": "Atletismo",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "07",
+      "11"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "02",
+  "fields": {
+    "nom_deporte": "Tenis",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "05"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "03",
+  "fields": {
+    "nom_deporte": "Tenis Mesa",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "04"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "04",
+  "fields": {
+    "nom_deporte": "Natación",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "06"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "05",
+  "fields": {
+    "nom_deporte": "Voleibol",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "03"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "06",
+  "fields": {
+    "nom_deporte": "Futbol",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "02"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "07",
+  "fields": {
+    "nom_deporte": "Futbol sala",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "02"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "08",
+  "fields": {
+    "nom_deporte": "Bádminton",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "13"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "09",
+  "fields": {
+    "nom_deporte": "Aeróbicos",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "06"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "10",
+  "fields": {
+    "nom_deporte": "Boxeo",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "08",
+      "10"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "11",
+  "fields": {
+    "nom_deporte": "Artes Marciales",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "08",
+      "10",
+      "12"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "12",
+  "fields": {
+    "nom_deporte": "Gimnasia Olimpica",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "06",
+      "07",
+      "11"
+    ]
+  }
+}
+]

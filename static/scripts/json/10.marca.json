@@ -1,0 +1,86 @@
+[
+{
+  "model": "sports.marca",
+  "pk": "01",
+  "fields": {
+    "nom_marca": "Nike"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "02",
+  "fields": {
+    "nom_marca": "Adidas"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "03",
+  "fields": {
+    "nom_marca": "Puma"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "04",
+  "fields": {
+    "nom_marca": "Reebok"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "05",
+  "fields": {
+    "nom_marca": "Fila"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "06",
+  "fields": {
+    "nom_marca": "Asics"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "07",
+  "fields": {
+    "nom_marca": "Kappa"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "08",
+  "fields": {
+    "nom_marca": "The North Face"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "09",
+  "fields": {
+    "nom_marca": "Under Armour"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "10",
+  "fields": {
+    "nom_marca": "Under Armour"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "11",
+  "fields": {
+    "nom_marca": "Converse"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "12",
+  "fields": {
+    "nom_marca": "TI Colombia"
+  }
+}
+]

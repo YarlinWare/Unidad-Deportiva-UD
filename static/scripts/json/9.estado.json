@@ -1,0 +1,37 @@
+[
+{
+  "model": "sports.estado",
+  "pk": "01",
+  "fields": {
+    "desc_estado": "Activo"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "02",
+  "fields": {
+    "desc_estado": "Prestado"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "03",
+  "fields": {
+    "desc_estado": "Dañado"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "04",
+  "fields": {
+    "desc_estado": "Perdido"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "05",
+  "fields": {
+    "desc_estado": "De baja"
+  }
+}
+]
