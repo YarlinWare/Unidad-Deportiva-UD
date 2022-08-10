@@ -52,6 +52,7 @@ DATABASES = {
 }
 ```
 
+#### Método 1
 Creación de script de los modelos
 ```
 (env)$ python manage.py makemigrations
@@ -62,6 +63,11 @@ Ejecución de script dentro de la base de datos
 ```
 (env)$ python manage.py migrate
 ```
+
+#### Método 2
+Ejecutar script dentro de la base de datos, dentro de la línea de comandos. El archivo se encuentra ubicado en:
+
+ static/scripts/oracleSQL/CREATE-DB.SQL
 
 Ejecutar proyecto
 ```
@@ -133,6 +139,11 @@ USERS_PERSONA
 USERS_RESPONSABLE
 USERS_ROL
 USERS_TIPODOCUMENTO
+```
+
+### Visualizar tablas del usuario
+```
+SQL> select table_name from user_tables;
 ```
 
 ### Ruta de Administrador
