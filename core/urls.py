@@ -20,4 +20,6 @@ from core import views as home_views
 urlpatterns = [
     path('', home_views.home_feed, name="feed"),
     path('assistant', home_views.home_assistant, name="assistant"),
+    path('export', home_views.ReportePersonasPDF.as_view(), name="export-pdf" ),
+    #path('export', home_views.export_pdf, name="export-pdf" ),ReportePersonasPDF.as_view()
 ]

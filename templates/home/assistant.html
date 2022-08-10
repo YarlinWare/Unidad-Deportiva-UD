@@ -1,14 +1,20 @@
-{% extends "base.html" %}
-
-{% block head_content %}
-    <title>Unidad Deportiva UD</title>
-{% endblock%}
-
-{% load static %}
-{% block container %}
-    <div class="container">
-        <div class="row">
-            
+{% extends "base.html" %} {% block head_content %}
+<title>Unidad Deportiva UD</title>
+{% endblock%} {% load static %} {% block container %}
+<div class="container">
+    <div class="row justify-content-end ">
+        <div class="col-4 mt-5">
+            <div class=" d-flex ">
+                <a target="_blank" class="btn-primary btn" href="{% url 'home:export-pdf' %}">Descargar Reporte</a>
+            </div>
+        </div>
+        <div class="col-8">
+            <ul>
+                {% for obj in list_asis_miemb_esqui %}
+                <li>{{obj}} </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
+</div>
 {% endblock %}
