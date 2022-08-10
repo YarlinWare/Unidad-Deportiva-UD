@@ -6,3 +6,6 @@ from django.contrib.auth.decorators import login_required
 @login_required
 def home_feed(request):
     return render(request, 'home/feed.html')
+
+def home_assistant(request):
+    return render(request, 'home/assistant.html')

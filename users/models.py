@@ -129,6 +129,6 @@ class AsisResponsable(models.Model):
     responsable = models.ForeignKey('users.Responsable', on_delete=models.CASCADE, null=True, default='1')
     def __str__(self):
         """Return username."""
-        return '{}: {}'.format(self.responsable)
+        return '{}: {}'.format(self.fecha_asis_responsable,self.hora_asis_responsable)
     class Meta:
         unique_together = (('consec_asis_responsable', 'responsable'),)

@@ -1,0 +1,28 @@
+{% extends "users/base.html" %}
+
+{% block container %}
+
+    {% if error %}
+        <p class="alert alert-danger">{{ error }}</p>
+    {% endif %}
+    <h3>Registrando asistente</h3>
+    <form action="{% url 'users:signup_assistant' %}" method="POST">
+        {% csrf_token %}
+
+        <div class="form-group" >
+            <select class="form-control" id="rol" name="rol" required="true">
+                {% for r in lista_empleados %}
+                    <option value="{{r}}">{{r}}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="Código" name="cod_empleado" required="true" />
+        </div>
+
+        <button class="btn btn-primary btn-block mt-5" type="submit">Acceder</button>
+
+    </form>
+
+{% endblock %}

@@ -29,6 +29,7 @@ urlpatterns = [
     path('logout',users_views.logout_view, name="logout" ),
     path('signup',users_views.signup_view, name="signup" ),
     path('signup/employee',users_views.signup_employee, name="signup_employee" ),
+    path('signup/assistant',users_views.signup_assistant, name="signup_assistant" ),
     #API
     path('api/', include(router.urls)),
 ]
