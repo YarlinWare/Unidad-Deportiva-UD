@@ -1,0 +1,484 @@
+[
+{
+  "model": "sports.tipoelemento",
+  "pk": "01",
+  "fields": {
+    "desc_tipo_elemento": "Balón Baloncesto"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "02",
+  "fields": {
+    "desc_tipo_elemento": "Balón Futbol"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "03",
+  "fields": {
+    "desc_tipo_elemento": "Balón Voleibol"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "04",
+  "fields": {
+    "desc_tipo_elemento": "Pelota Tenis mesa"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "05",
+  "fields": {
+    "desc_tipo_elemento": "Pelota Tenis campo"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "06",
+  "fields": {
+    "desc_tipo_elemento": "Colchoneta"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "07",
+  "fields": {
+    "desc_tipo_elemento": "Lazo salto"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "08",
+  "fields": {
+    "desc_tipo_elemento": "Guantes Box"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "09",
+  "fields": {
+    "desc_tipo_elemento": "Malla Volibol"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "10",
+  "fields": {
+    "desc_tipo_elemento": "Saco Boxeo"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "11",
+  "fields": {
+    "desc_tipo_elemento": "Aros hula-hula"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "12",
+  "fields": {
+    "desc_tipo_elemento": "Chaleco Boxeo"
+  }
+},
+{
+  "model": "sports.tipoelemento",
+  "pk": "13",
+  "fields": {
+    "desc_tipo_elemento": "Malla Pimpón"
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "01",
+  "fields": {
+    "nom_deporte": "Atletismo",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "07",
+      "11"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "02",
+  "fields": {
+    "nom_deporte": "Tenis",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "05"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "03",
+  "fields": {
+    "nom_deporte": "Tenis Mesa",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "04"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "04",
+  "fields": {
+    "nom_deporte": "Natación",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "06"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "05",
+  "fields": {
+    "nom_deporte": "Voleibol",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "03"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "06",
+  "fields": {
+    "nom_deporte": "Futbol",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "02"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "07",
+  "fields": {
+    "nom_deporte": "Futbol sala",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "02"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "08",
+  "fields": {
+    "nom_deporte": "Bádminton",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "13"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "09",
+  "fields": {
+    "nom_deporte": "Aeróbicos",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "06"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "10",
+  "fields": {
+    "nom_deporte": "Boxeo",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "08",
+      "10"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "11",
+  "fields": {
+    "nom_deporte": "Artes Marciales",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "08",
+      "10",
+      "12"
+    ]
+  }
+},
+{
+  "model": "sports.deporte",
+  "pk": "12",
+  "fields": {
+    "nom_deporte": "Gimnasia Olimpica",
+    "espacio": [
+      "01"
+    ],
+    "tipo_elemento": [
+      "06",
+      "07",
+      "11"
+    ]
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "01",
+  "fields": {
+    "desc_estado": "Activo"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "02",
+  "fields": {
+    "desc_estado": "Prestado"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "03",
+  "fields": {
+    "desc_estado": "Dañado"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "04",
+  "fields": {
+    "desc_estado": "Perdido"
+  }
+},
+{
+  "model": "sports.estado",
+  "pk": "05",
+  "fields": {
+    "desc_estado": "De baja"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "01",
+  "fields": {
+    "nom_marca": "Nike"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "02",
+  "fields": {
+    "nom_marca": "Adidas"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "03",
+  "fields": {
+    "nom_marca": "Puma"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "04",
+  "fields": {
+    "nom_marca": "Reebok"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "05",
+  "fields": {
+    "nom_marca": "Fila"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "06",
+  "fields": {
+    "nom_marca": "Asics"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "07",
+  "fields": {
+    "nom_marca": "Kappa"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "08",
+  "fields": {
+    "nom_marca": "The North Face"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "09",
+  "fields": {
+    "nom_marca": "Under Armour"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "10",
+  "fields": {
+    "nom_marca": "Under Armour"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "11",
+  "fields": {
+    "nom_marca": "Converse"
+  }
+},
+{
+  "model": "sports.marca",
+  "pk": "12",
+  "fields": {
+    "nom_marca": "TI Colombia"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 1,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "01",
+    "estado": "01",
+    "marca": "01",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 2,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "02",
+    "estado": "01",
+    "marca": "02",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 3,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "03",
+    "estado": "01",
+    "marca": "03",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 4,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "01",
+    "estado": "01",
+    "marca": "04",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 5,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "10",
+    "estado": "01",
+    "marca": "07",
+    "espacio": "S3"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 6,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "13",
+    "estado": "02",
+    "marca": "12",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 7,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "12",
+    "estado": "02",
+    "marca": "11",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 8,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "11",
+    "estado": "02",
+    "marca": "10",
+    "espacio": "S1"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 9,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "10",
+    "estado": "02",
+    "marca": "09",
+    "espacio": "S2"
+  }
+},
+{
+  "model": "sports.elementodeportivo",
+  "pk": 10,
+  "fields": {
+    "fecha_registro": "2022-08-10",
+    "tipo_elemento": "01",
+    "estado": "02",
+    "marca": "07",
+    "espacio": "S1"
+  }
+}
+]

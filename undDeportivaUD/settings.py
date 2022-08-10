@@ -48,6 +48,9 @@ THIRD_PARTY_APPS = (
 LOCAL_APPS = (
 	# Aca irian las apps de nuestros proyectos que vamoss a instalar, cosas como posts, perfiles, etc
     'users',
+    'programming',
+    'teams',
+    'sports',
     'core',
 )
 

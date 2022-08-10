@@ -4,7 +4,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 # Models
 from django.contrib.auth.models import User
-from users.models import Persona, Estudiante, Rol, TipoDocumento, Empleado
+from users.models import Persona, Estudiante, Rol, TipoDocumento, Empleado, EmpleadoCargo, Cargo, Responsable, AsisResponsable
 
 class UserAdmin(admin.ModelAdmin):
 	readonly_fields = ('created', 'updated')
@@ -38,6 +38,15 @@ class PersonaAdmin(admin.ModelAdmin):
 	)
 	readonly_fields = ('created', 'updated')
 
+class EmpleadoCargoAdmin(admin.ModelAdmin):
+	list_display = ('consec','cargo','espacio','empleado')
+
+class EstudianteAdmin(admin.ModelAdmin):
+	list_display = ('cod_estu','nom_estu','apell_estu','correo_ud_estu','espacio')
+
+class TipoDocumentoAdmin(admin.ModelAdmin):
+	list_display = ('abreviacion','desc_tipo')
+
 # Persona in-line admin for users
 class PersonaInline(admin.StackedInline):
 	model = Persona
@@ -53,7 +62,11 @@ admin.site.register(User, UserAdmin)
 admin.site.register(Persona, PersonaAdmin)
 
 # Register your models here.
-admin.site.register(Estudiante)
+admin.site.register(Estudiante,EstudianteAdmin)
 admin.site.register(Rol)
-admin.site.register(TipoDocumento)
+admin.site.register(TipoDocumento,TipoDocumentoAdmin)
 admin.site.register(Empleado)
+admin.site.register(EmpleadoCargo,EmpleadoCargoAdmin)
+admin.site.register(Cargo)
+admin.site.register(Responsable)
+admin.site.register(AsisResponsable)
